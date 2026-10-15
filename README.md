@@ -1,36 +1,27 @@
 # Creador de Flyers
 
-Skill básica de ejemplo creada por Punilla Digital para preparar textos y composición de flyers.
+Habilidad ampliada de Punilla Digital. Reemplaza la versión básica de este repositorio.
 
 ## Alcance
-Texto final, composición y prompt visual. Esta versión prepara contenido e instrucciones; no incluye scripts, integraciones ni exportación automática de archivos.
+
+Una placa autosuficiente por formato, con texto y logo exactos. Mantiene los temas y recursos 2D, 3D, fotografía y texto de Carruseles. Formatos: historia/estado 1080×1920, cuadrado 1080×1080, vertical 1080×1350, A5 148×210 mm y A4 210×297 mm. Entrega PNG para redes y PDF para impresión. Genera solo las versiones solicitadas; vertical 4:5 por defecto. A5 es un supuesto reemplazable.
 
 ## Uso
-- Consultar [SKILL.md](SKILL.md) y proporcionar los datos de entrada que indica.
-- En un agente compatible, colocar la carpeta `creador-de-flyers` con el archivo `SKILL.md` en el directorio de skills que admita ese entorno.
-- En otros asistentes, adjuntar o pegar las instrucciones como contexto. Esto no garantiza instalación ni activación automática.
 
-## Personalizar la marca
-Cambiar la sección «Identidad configurable» en SKILL.md o indicar la configuración en cada pedido:
+Consultar [SKILL.md](SKILL.md). Copiar la carpeta completa con el nombre `creador-de-flyers` al directorio de habilidades de un agente compatible, conservando referencias, recursos y metadatos. Publicar en GitHub no instala ni actualiza automáticamente habilidades en ChatGPT.
 
-```text
-Marca: Mi negocio
-Logo: archivo adjunto
-Colores: #7C3AED, #F97316 y #FFFFFF
-Tipografía: sans serif o la fuente de mi marca
-Tema: claro u oscuro
-Tono: profesional y directo
-```
+Las instrucciones cubren la producción y revisión del entregable; no basta con devolver un guion si las herramientas permiten generar el archivo pedido. No afirmar exportación ni validación que no se haya ejecutado.
 
-La paleta incluida es ilustrativa. No se incluye un archivo de logo; utilizar uno propio. La identidad afecta la presentación cuando corresponde, sin cambiar datos o cálculos.
+## Requisitos
 
-## Ejemplo de pedido
-> Prepará un flyer para un menú de almuerzo usando el logo adjunto.
+Necesita herramientas de composición y exportación, Pillow o equivalentes para PNG, y herramientas PDF para impresión. La generación de ilustraciones requiere una herramienta de imágenes; las placas de solo texto no la necesitan. No incluye el empaquetador de carruseles de siete placas.
 
-## Resultado esperado
-Texto final, composición y prompt visual.
+## Marca y adaptación
 
-## Créditos
-[Punilla Digital](https://punilladigital.com.ar/) · [Catálogo de Skills](https://punilladigital.com.ar/skils/)
+Aplicar la guía de marca y el logo que aporte el usuario. Los recursos de Punilla Digital incluidos no autorizan a presentarla como institución autora o aval de materiales ajenos. No alterar logos ni inventar datos.
 
-Consultar LICENSE, si está presente, para las condiciones de uso.
+## Origen
+
+Adaptación solicitada el 15/10/2026 a partir de Carruseles Punilla Digital. Conserva criterios de composición y control de calidad, con instrucciones propias para esta tarea. Las habilidades instaladas permanecen sin cambios.
+
+[Punilla Digital](https://punilladigital.com.ar/) · [Licencia](LICENSE)

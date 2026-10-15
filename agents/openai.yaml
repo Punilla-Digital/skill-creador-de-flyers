@@ -1,0 +1,7 @@
+interface:
+  display_name: Creador de Flyers
+  short_description: Un flyer adaptado a redes y formatos imprimibles
+  default_prompt: Usá $creador-de-flyers para crear una sola pieza y adaptarla a los
+    formatos que te indique.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
